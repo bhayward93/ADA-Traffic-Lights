@@ -1,0 +1,28 @@
+[MAPPING FILE]
+/home/nemo/Documents/uni/embedded-systems/traffic-sim/ica-linux/obj-linux/GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 6
+[MAIN BASE NAME]
+controller
+[COMPILER PATH]
+/usr/bin/gnatgcc
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+/home/nemo/Documents/uni/embedded-systems/traffic-sim/ica-linux/obj-linux/controller.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+-E
+-static
+-d16k
+-D16k
+[PROJECT FILES]
+/home/nemo/Documents/uni/embedded-systems/traffic-sim/ica-linux/controller_linux.gpr
+20170503171205
+/home/nemo/Documents/uni/embedded-systems/traffic-sim/ica-linux/libxrif_linux.gpr
+20170503170241

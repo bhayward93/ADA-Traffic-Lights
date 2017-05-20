@@ -10,7 +10,7 @@ package HWIF is
    Addr : constant System.Address := MMap.Get_MMAP_RW;
    
    function "+" (A : in System.Address;
-                 B : in System.Storage_Elements.Storage_Offset)
+                 B : in System.Storage_Elements.Storage_Offset) --http://stackoverflow.com/questions/2720061/address-representation-in-ada
                 return System.Address 
      renames System.Storage_Elements."+";
    
